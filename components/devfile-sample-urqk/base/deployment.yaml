@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-urqk
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/user-workload:paP4F-devfile-sample-urqk
+      - image: quay.io/redhat-appstudio/user-workload@sha256:afae18ad25f305a38b34973c560bd8afd23c473c8add4a1d325b46a54576c242
         name: my-nodejs
         ports:
         - containerPort: 3001
