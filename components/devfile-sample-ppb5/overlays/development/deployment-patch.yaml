@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-ppb5
+  namespace: christianvogt-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio/user-workload@sha256:9d498f3b660d193199f99d8a08035e78a8234eb732c05130ba87c104e86a4fe5
+        name: my-nodejs
+        resources: {}
+status: {}
