@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-ppb5
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/user-workload@sha256:5b1d722c050aa1550e7729120a87c6f32c7a284c8246a74cc1b73f5116affdb5
+      - image: quay.io/redhat-appstudio/user-workload@sha256:9d498f3b660d193199f99d8a08035e78a8234eb732c05130ba87c104e86a4fe5
         name: my-nodejs
         ports:
         - containerPort: 3001
