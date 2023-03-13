@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: human-resources-4gw8
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/user-workload:paP4F-human-resources-4gw8
+      - image: quay.io/redhat-appstudio/user-workload@sha256:1243b2d4e465f7f35399e26eca9d006424ae5f40dc28616ab055c205153033af
         name: my-java-springboot
         ports:
         - containerPort: 8081
