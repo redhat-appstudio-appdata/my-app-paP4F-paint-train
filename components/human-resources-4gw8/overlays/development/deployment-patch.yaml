@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: human-resources-4gw8
+  namespace: christianvogt-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio/user-workload@sha256:1243b2d4e465f7f35399e26eca9d006424ae5f40dc28616ab055c205153033af
+        name: my-java-springboot
+        resources: {}
+status: {}
